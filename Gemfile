@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.8'
+
+gem 'mysql2', '~> 0.3.17'
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 gem 'rails_12factor', group: :production
@@ -31,6 +34,8 @@ gem 'spring',        group: :development
 
 # Use unicorn as the app server
 gem 'unicorn'
+
+gem 'cowsay'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
