@@ -1,15 +1,270 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+/* 
+
+Basic CSS 
+
+*/
+
+body {
+background:#fff;
+color:#0F0F0F;
+font:15px/20px Arial, Helvetica, sans-serif;
+margin:32px 0 0;
+padding:0;
+}
+
+div,ul,h1,h2,h3,li,p,img {
+margin:0;
+padding:0;
+}
+
+ul {
+list-style-type:none;
+}
+
+/* 
+
+Header CSS 
+
+*/
+
+#topPanel {
+width:762px;
+height:125px;
+position:relative;
+margin:0 auto;
+padding:0;
+}
+
+#topPanel img {
+width:100px;
+height:70px;
+z-index:1;
+position:absolute;
+opacity:1;
+margin:0 0 0 21px;
+padding:0;
+}
+
+#topPanel .headone {
+text-align:left;
+font-size:30px;
+font-weight:700;
+font:Calibri;
+color:#835C3B;
+background:#fff;
+}
+
+#topPanel ul {
+display:block;
+width:732px;
+height:36px;
+position:absolute;
+top:0;
+right:0;
+border-bottom:2px solid #835C3B;
+margin:11px 0 0;
+padding:0 29px 0 0;
+}
+
+/* 
+
+Shared Head and Footer CSS 
+
+*/
+
+#topPanel ul li, #footerPanel ul li {
+float:right;
+font:12px/36px "Trebuchet MS",Arial, Helvetica, sans-serif;
+font-weight:700;
+}
+
+#topPanel ul li a, #footerPanel ul li a {
+width:74px;
+height:36px;
+display:block;
+color:#835C3B;
+background:#fff;
+text-decoration:none;
+text-align:center;
+top:0;
+left:0;
+margin:0 1px 0 0;
+padding:0;
+}
+
+#topPanel ul li a:hover, #footerPanel ul li a:hover {
+width:74px;
+height:36px;
+text-decoration:none;
+background:no-repeat 0 0 #966f33;
+color:#fff;
+}
+
+#topPanel ul li.active, #footerPanel ul li.active {
+width:74px;
+display:block;
+height:36px;
+color:#966f33;
+text-align:center;
+margin:0 1px 0 0;
+}
+
+/* 
+
+Footer CSS 
+
+*/
+
+#footerPanel {
+width:762px;
+height:60px;
+position:relative;
+margin:0 auto;
+padding:0;
+}
+
+#footerPanel ul {
+display:block;
+width:732px;
+height:36px;
+position:absolute;
+top:0;
+right:0;
+border-top:2px solid #835C3B;
+margin:11px 0 0;
+padding:0 29px 0 0;
+}
+
+#copyright {
+height:15px;
+text-align:left;
+color:#835C3B;
+background:#fff;
+font:11px Calibri, Arial, Helvetica, sans-serif;
+padding:12px 0 0;
+}
+
+.clearfooter {
+height:30px;
+clear:both;
+}
+
+
+/* 
+
+Body CSS
+
+*/
+
+#bodyPanel {
+width:650px;
+height:auto;
+position:relative;
+margin:0 auto;
+padding:0 auto;
+}
+
+#bodyPanel #imageView{
+width:400px; 
+height:400px; 
+position:relative; 
+margin:0 auto; 
+padding:15px;
+}
+
+#bodyPanel #imageView a.mainimage { 
+float: right; 
+padding: 0px 0; 
+margin: 0 0 4px 0; 
+background:url(/assets/farm.JPG) no-repeat 0 0;
+background-size: 380px 380px;
+background-repeat: no-repeat;  
+color: #4C2516; 
+width:380px; 
+height:380px; 
+opacity: 0.8; 
+border-radius:25px;
+text-decoration: none; 
+font-size: 0.9em; 
+text-align: left; 
+}
+
+#bodyPanel #imageView a.mainimage:hover { 
+background:url(/assets/farm.JPG) no-repeat 0 0; 
+background-size: 380px 380px;
+background-repeat: no-repeat;  
+opacity: 0.9;
+}
+
+#bodyPanel p {
+color:#0F0F0F;
+margin:0 0 0 54px;
+padding:0 42px 35px 150px;
+}
+
+#bodyPanel p.capstext {
+font:18px/24px Georgia, "Times New Roman", Times, serif;
+font-style:italic;
+color:#555;
+margin:0 35px 10px 0;
+padding:2px 10px 0 25px;
+}
+
+#bodyPanel h2 {
+background:#fff;
+display:block;
+width:250px;
+height:50px;
+font:30px/30px Georgia, "Times New Roman", Times, serif;
+font-weight:400;
+color:#FF7113;
+margin:0;
+padding:4px 0 0 202px;
+}
+
+#bodyPanel h3 {
+background:#fff;
+display:block;
+width:250px;
+height:34px;
+font:30px/30px Georgia, "Times New Roman", Times, serif;
+font-weight:400;
+color:#FF7113;
+margin:34px 0 12px;
+padding:0 0 0 20px;
+}
+
+#bodyPanel h4 {
+background:#fff;
+width:250px;
+height:30px;
+position:absolute;
+top:361px;
+right:5px;
+font:30px/30px Georgia, "Times New Roman", Times, serif;
+font-weight:400;
+color:#FF7113;
+margin:0;
+padding:0;
+}
+
+#bodyPanel ul {
+width:225px;
+display:block;
+position:absolute;
+right:30px;
+top:405px;
+}
+
+#bodyPanel ul li {
+font:12px/25px Arial, Helvetica, sans-serif;
+font-weight:400;
+background:url(images/symbol2.gif) 0 8px no-repeat;
+padding:0 0 0 30px;
+}
+
+#bodyPanel ul span {
+background:url(images/dot-line.gif) repeat-x 0 100%;
+height:25px;
+display:block;
+}

@@ -1,14 +1,40 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<LINK REL="SHORTCUT ICON" HREF="/favicon.ico" type="image/x-icon"> 
 <head>
-  <title>RubyGettingStarted</title>
+  <title>Official</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-</head>
-<body>
+<header>
+	<h1></h1>
+<div id="topPanel">
+<ul>
+  <li><%= link_to( 'Venue', {:controller => "welcome", :action => 'index'}) %>	
+  </li>
+  <li><%= link_to( 'Date', {:controller => "welcome", :action => 'index'}) %>	
+  </li>
+  <li class="active"><a href="/">Home</a></li>
+</ul>
+<a href="/"><%= image_tag "js2016.png" %></a>
+</div>
+</header>
 
-<%= yield %>
+<div>
+  <%= yield %>
+</div>
 
-</body>
+<div id="footerPanel">
+  <div id="footerbodyPanel">
+  <ul>
+  	<li><%= link_to("Contact", {:controller => "welcome", :action => 'index'}) %></li>
+  <li><a href="/">Home</a></li>
+  <p id="copyright">&copy; Sinitean & Van Geem</p>
+  </ul>
+  </div>
+</div>
 </html>
+
+
+	
