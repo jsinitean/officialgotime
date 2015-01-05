@@ -176,7 +176,7 @@ padding:15px;
 float: right; 
 padding: 0px 0; 
 margin: 0 0 4px 0; 
-background:url(/assets/farm.JPG) no-repeat 0 0;
+background:url(/assets/farm.png) no-repeat 0 0;
 background-size: 380px 380px;
 background-repeat: no-repeat;  
 color: #4C2516; 
@@ -190,7 +190,7 @@ text-align: left;
 }
 
 #bodyPanel #imageView a.mainimage:hover { 
-background:url(/assets/farm.JPG) no-repeat 0 0; 
+background:url(/assets/farm.png) no-repeat 0 0; 
 background-size: 380px 380px;
 background-repeat: no-repeat;  
 opacity: 0.9;
