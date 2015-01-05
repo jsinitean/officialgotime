@@ -144,7 +144,7 @@ font:11px Calibri, Arial, Helvetica, sans-serif;
 padding:12px 0 0;
 }
 
-.clearfooter {
+#clearfooter {
 height:30px;
 clear:both;
 }
@@ -169,7 +169,7 @@ width:400px;
 height:400px; 
 position:relative; 
 margin:0 auto; 
-padding:15px;
+padding:0 0 10px 0;
 }
 
 #bodyPanel #imageView a.mainimage { 
@@ -177,11 +177,8 @@ float: right;
 padding: 0px 0; 
 margin: 0 0 4px 0; 
 background:url(/assets/farm.png) no-repeat 0 0;
-background-size: 380px 380px;
+background-size: 400px 400px;
 background-repeat: no-repeat;  
-color: #4C2516; 
-width:380px; 
-height:380px; 
 opacity: 0.8; 
 border-radius:25px;
 text-decoration: none; 
@@ -191,15 +188,15 @@ text-align: left;
 
 #bodyPanel #imageView a.mainimage:hover { 
 background:url(/assets/farm.png) no-repeat 0 0; 
-background-size: 380px 380px;
+background-size: 400px 400px;
 background-repeat: no-repeat;  
 opacity: 0.9;
 }
 
 #bodyPanel p {
 color:#0F0F0F;
-margin:0 0 0 54px;
-padding:0 42px 35px 150px;
+margin:0;
+padding:0 42px 35px 150px;s
 }
 
 #bodyPanel p.capstext {
@@ -210,40 +207,48 @@ margin:0 35px 10px 0;
 padding:2px 10px 0 25px;
 }
 
+#bodyPanel h1 {
+background:#fff;
+text-align:center;
+display:block;
+height:50px;
+font:40px/40px Georgia, "Times New Roman", Times, serif;
+font-weight:800;
+color:#835C3B;
+margin:0;
+padding:4px 0 0 0;
+}
+
 #bodyPanel h2 {
 background:#fff;
+text-align:center;
 display:block;
-width:250px;
 height:50px;
 font:30px/30px Georgia, "Times New Roman", Times, serif;
 font-weight:400;
-color:#FF7113;
+color:#835C3B;
 margin:0;
-padding:4px 0 0 202px;
+padding:0 0 0 0;
 }
 
 #bodyPanel h3 {
 background:#fff;
 display:block;
-width:250px;
-height:34px;
+text-align:center;
 font:30px/30px Georgia, "Times New Roman", Times, serif;
 font-weight:400;
-color:#FF7113;
-margin:34px 0 12px;
-padding:0 0 0 20px;
+color:#835C3B;
+margin:0;
+padding:0;
 }
 
 #bodyPanel h4 {
 background:#fff;
-width:250px;
-height:30px;
-position:absolute;
-top:361px;
-right:5px;
-font:30px/30px Georgia, "Times New Roman", Times, serif;
+text-align:center;
+display:block;
+font:15px/15px Georgia, "Times New Roman", Times, serif;
 font-weight:400;
-color:#FF7113;
+color:#835C3B;
 margin:0;
 padding:0;
 }
