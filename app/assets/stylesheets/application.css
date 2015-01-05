@@ -29,7 +29,7 @@ Header CSS
 
 #topPanel {
 width:762px;
-height:125px;
+height:100px;
 position:relative;
 margin:0 auto;
 padding:0;
@@ -145,7 +145,7 @@ padding:12px 0 0;
 }
 
 #clearfooter {
-height:30px;
+height:20px;
 clear:both;
 }
 
@@ -196,7 +196,7 @@ opacity: 0.9;
 #bodyPanel p {
 color:#0F0F0F;
 margin:0;
-padding:0 42px 35px 150px;s
+padding:0 42px 35px 150px;
 }
 
 #bodyPanel p.capstext {
