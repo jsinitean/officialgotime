@@ -11,10 +11,9 @@
 	<h1></h1>
 <div id="topPanel">
 <ul>
-  <li><%= link_to( 'Venue', {:controller => "welcome", :action => 'venue'}) %>	
-  </li>
-  <li><%= link_to( 'Date', {:controller => "welcome", :action => 'date'}) %>	
-  </li>
+  <li><%= link_to( 'Hotel', {:controller => "welcome", :action => 'hotel'}) %></li>
+  <li><%= link_to( 'Venue', {:controller => "welcome", :action => 'venue'}) %></li>
+  <li><%= link_to( 'Date', {:controller => "welcome", :action => 'date'}) %></li>
   <li class="active"><a href="/">Home</a></li>
 </ul>
 <a href="/"><%= image_tag "js2016.png" %></a>
@@ -32,12 +31,11 @@
   <div id="footerbodyPanel">
   <ul>
   	<li><%= link_to("Contact", {:controller => "welcome", :action => 'contact'}) %></li>
-  <li><a href="/">Home</a></li>
+    <li><%= link_to("Social", {:controller => "welcome", :action => 'wedstory'}) %></li>
+    <li><%= link_to("Our Story", {:controller => "welcome", :action => 'ourstory'}) %></li>
+    <li><a href="/">Home</a></li>
   <p id="copyright">&copy; Sinitean & Van Geem</p>
   </ul>
   </div>
 </div>
 </html>
-
-
-	

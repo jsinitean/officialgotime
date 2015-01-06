@@ -17,4 +17,20 @@ class WelcomeController < ApplicationController
 
   end
 
+  def piper
+
+  end
+
+  def hotel
+
+  end
+
+  def ourstory
+
+  end
+
+  def wedstory
+
+  end
+
 end
