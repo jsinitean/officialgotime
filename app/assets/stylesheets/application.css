@@ -18,7 +18,7 @@ Basic CSS
 body {
 background:#fff;
 color:#0F0F0F;
-font:15px/20px Arial, Helvetica, sans-serif;
+font:15px/20px "Raleway","Helvetica Neue",Helvetica,sans-serif;
 margin:32px 0 0;
 padding:0;
 }
@@ -85,8 +85,11 @@ Shared Head and Footer CSS
 
 #topPanel ul li, #footerPanel ul li {
 float:right;
-font:12px/36px "Trebuchet MS",Arial, Helvetica, sans-serif;
-font-weight:700;
+font:12px/36px "Raleway","Helvetica Neue",Helvetica,sans-serif;
+font-weight:300;
+font-size: 13px;
+font-style: normal;
+letter-spacing: 0.21em
 }
 
 #topPanel ul li a, #footerPanel ul li a {
@@ -150,8 +153,11 @@ height:15px;
 text-align:left;
 color:#347235;
 background:#fff;
-font:11px Calibri, Arial, Helvetica, sans-serif;
+font:11px "Raleway","Helvetica Neue",Helvetica,sans-serif;
 padding:12px 0 0;
+font-weight:300;
+font-style: normal;
+letter-spacing: 0.21em
 }
 
 #clearfooter {
@@ -172,6 +178,10 @@ height:auto;
 position:relative;
 margin:0 auto;
 padding:0 auto;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+letter-spacing: 0.21em
 }
 
 #bodyPanel #imageView{
@@ -206,14 +216,78 @@ background-repeat: no-repeat;
 opacity: 0.8;
 }
 
+#bodyPanel #imageView2{
+width:400px; 
+height:750px; 
+position:relative; 
+margin:0 auto; 
+padding:0 0 10px 0;
+}
+
+#bodyPanel #imageView2 a.mainimage2 { 
+float: right; 
+padding: 0px 0; 
+margin: 0 0 4px 0; 
+background:url(/assets/BridgeportLogo.png) no-repeat 0 0;
+background-size: 400px 120px;
+background-repeat: no-repeat;  
+color: #4C2516; 
+width:400px; 
+height:120px; 
+opacity: 0.8; 
+border-radius:25px;
+text-decoration: none; 
+font-size: 0.9em; 
+text-align: left; 
+}
+
+#bodyPanel #imageView2 a.secondimage { 
+float: right; 
+padding: 0px 0; 
+margin: 0 0 4px 0; 
+background:url(/assets/skylineloft.jpg) no-repeat 0 0;
+background-size: 400px 200px;
+background-repeat: no-repeat;  
+color: #4C2516; 
+width:400px; 
+height:200px; 
+opacity: 0.6; 
+border-radius:25px;
+text-decoration: none; 
+font-size: 0.7em; 
+text-align: left; 
+}
+
+#bodyPanel #imageView3{
+width:400px; 
+height:500px; 
+position:relative; 
+margin:0 auto; 
+padding:0 0 10px 0;
+}
+
+#bodyPanel #imageView3 a.mainimage3 { 
+display: inline-block;
+padding: 0px 0; 
+margin: 0 0 0 0; 
+background:url(/assets/Hyatt.png) no-repeat 0 0;
+background-size: 150px 150px;
+background-repeat: no-repeat;  
+color: #4C2516; 
+width:150px; 
+height:150px; 
+opacity: 0.8; 
+border-radius:25px;
+}
+
 #bodyPanel p {
 color:#0F0F0F;
 margin:0;
-padding:0 42px 35px 150px;
+padding:0 0px 10px 0px;
 }
 
 #bodyPanel p.capstext {
-font:18px/24px Georgia, "Times New Roman", Times, serif;
+font:18px/24px "Raleway","Helvetica Neue",Helvetica,sans-serif;
 font-style:italic;
 color:#555;
 margin:0 35px 10px 0;
@@ -225,7 +299,7 @@ background:#fff;
 text-align:center;
 display:block;
 height:50px;
-font:40px/40px Georgia, "Times New Roman", Times, serif;
+font:40px/40px "Raleway","Helvetica Neue",Helvetica,sans-serif;
 font-weight:800;
 color:#AF7817;
 margin:0;
@@ -237,7 +311,7 @@ background:#fff;
 text-align:center;
 display:block;
 height:40px;
-font:30px/30px Georgia, "Times New Roman", Times, serif;
+font:30px/30px "Raleway","Helvetica Neue",Helvetica,sans-serif;
 font-weight:400;
 color:#AF7817;
 margin:0;
@@ -248,7 +322,7 @@ padding:0 0 10px 0;
 background:#fff;
 display:block;
 text-align:center;
-font:20px/20px Georgia, "Times New Roman", Times, serif;
+font:20px/20px "Raleway","Helvetica Neue",Helvetica,sans-serif;
 font-weight:400;
 color:#AF7817;
 margin:0;
@@ -259,7 +333,7 @@ padding:0 0 4px 0;
 background:#fff;
 text-align:center;
 display:block;
-font:15px/15px Georgia, "Times New Roman", Times, serif;
+font:15px/15px "Raleway","Helvetica Neue",Helvetica,sans-serif;
 font-weight:400;
 color:#AF7817;
 margin:0;
@@ -270,7 +344,7 @@ padding:0 0 4px 0;
 background:#fff;
 text-align:center;
 display:block;
-font:12px/12px Georgia, "Times New Roman", Times, serif;
+font:12px/12px "Raleway","Helvetica Neue",Helvetica,sans-serif;
 font-weight:400;
 color:#AF7817;
 margin:0;
@@ -278,10 +352,12 @@ padding:0 0 4px 0;
 }
 
 #bodyPanel ul {
-width:225px;
-display:block;
-position:absolute;
-right:30px;
-top:405px;
+width:400;
+
 }
 
+#bodyPanel li {
+width:400;
+
+
+}
