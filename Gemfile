@@ -5,6 +5,9 @@ gem 'rails', '4.1.8'
 
 gem 'mysql2', '~> 0.3.17'
 
+gem 'bootstrap-sass'
+gem 'autoprefixer-rails'
+
 # Use postgresql as the database for Active Record
 gem 'pg'
 gem 'rails_12factor', group: :production

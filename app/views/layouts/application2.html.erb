@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
+<LINK REL="SHORTCUT ICON" HREF="/favicon.ico" type="image/x-icon"> 
+<head>
+  
+
+<html>
+  <head>
+    <title>Jer - Sar 2016</title>
+    <%= stylesheet_link_tag    'agency', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+
+    <%= render 'layouts/navigation' %>
+
+    <div id="main-container" class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h3>Below header text?</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-3">
+          <h3>Side Nav?</h3>
+        </div>
+        <div class="col-xs-9">
+          <h3>main content div w/ yield</h3>
+          <%= yield %>
+        </div>
+      </div>
+    </div>
+
+<div id="clearfooter">
+</div>
+
+<div id="footerPanel">
+  <div id="footerbodyPanel">
+  <ul>
+  	<li><%= link_to("Contact", {:controller => "welcome", :action => 'contact'}) %></li>
+    <li><%= link_to("Social", {:controller => "welcome", :action => 'wedstory'}) %></li>
+    <li><%= link_to("Story", {:controller => "welcome", :action => 'ourstory'}) %></li>
+    <li><a href="/">Home</a></li>
+  <p id="copyright">&copy; Sinitean & Van Geem</p>
+  </ul>
+  </div>
+</div>
+</html>
+
+
