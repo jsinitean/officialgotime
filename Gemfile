@@ -5,6 +5,8 @@ gem 'rails', '4.1.8'
 
 gem 'mysql2', '~> 0.3.17'
 
+gem 'newrelic_rpm'
+
 gem 'bootstrap-sass'
 gem 'autoprefixer-rails'
 
