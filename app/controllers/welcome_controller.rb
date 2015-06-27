@@ -5,11 +5,19 @@ class WelcomeController < ApplicationController
 
   end
 
-  def venue
+  def catering
 
   end
 
-  def date
+  def westloop
+
+  end
+
+  def songs
+
+  end
+
+  def guests
 
   end
 
@@ -17,15 +25,7 @@ class WelcomeController < ApplicationController
 
   end
 
-  def piper
-
-  end
-
-  def hotel
-
-  end
-
-  def ourstory
+  def venue
 
   end
 
