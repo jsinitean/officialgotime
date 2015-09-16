@@ -1,8 +1,10 @@
 
+  <!-- Header Section -->
   <div class="col-md-12 col-sm-12">
     <h2> Jeremy & Sarah are getting married! </h2>
     <h2> <small> Who's ready to celebrate? </small> </h2>
   </div>
+
   <!-- Team Section -->
   <section id="about" class="bg-light-gray">
       <div class="row">
@@ -36,6 +38,7 @@
         </div>
         <div class="col-md-10">
           <div class="collage-pic">
+            <p class="text-muted">We are so excited to celebrate with you on May 7, 2016! We will continue to update this website with new updates and features, so please come back!</p>
             <img src="<%= asset_path( 'collage.png' ) %>" class="img-responsive center-block" alt="">
           </div>
         </div>
@@ -44,12 +47,16 @@
       </div>
   </section>
 
-  <!-- Services Section -->
+  <!-- Location Section -->
   <section id="location" class="bg-light-gray">
       <div class="row">
-        <div class="col-lg-12 text-center">
+        <div class="col-lg-1"></div>
+        <div class="col-lg-10 text-center">
           <h2 class="section-heading">Location</h2>
-         </div> 
+          <p class="text-muted">The "Skyline Loft" space has a beautiful view of the Chicago skyline <br /> 
+            where we'll have the opportunity showcase the amazing city we call home!</p>
+        </div> 
+        <div class="col-lg-1"></div>
       </div>
       <div>
         <img class="img-responsive center-block" src="/assets/BridgeportLogo.png" alt="">
@@ -95,10 +102,31 @@
       </div>
   </section>
 
+  <!-- Party Section -->
+  <section id="party" class="bg-light-gray">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading">The Party</h2>
+          <p class="text-muted">Toast & Jam will be there to deliver all the MC and DJ duties.<br />
+          So bring your dancing shoes! #ChickenDanceFree</p>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-2"></div>
+        <div class="col-md-8">
+          <div class="collage-pic">
+            <img src="<%= asset_path( 'toast-jam.png' ) %>" class="img-responsive center-block" alt="">
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+  </section> 
+
+  <!-- Hotel Section -->
   <section id="hotel">
     <div class="row">
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading">Hyatt McCormick Place</h2>
+        <h2 class="section-heading">Hyatt Regency McCormick Place</h2>
       </div>
     </div>    
     <div class="row">
@@ -106,7 +134,10 @@
         <div class="col-lg-4"></div>  
         <div class="col-lg-4">
           <center>
-          <img src="<%= asset_path( 'Hyatt.png' ) %>" class="img-responsive">
+          <a href="https://resweb.passkey.com/go/SiniteanWedding" target="_blank">Access our hotel room block ></a>
+          <a href="https://resweb.passkey.com/go/SiniteanWedding" target="_blank">
+            <img src="<%= asset_path( 'Hyatt.png' ) %>" class="img-responsive"></img>
+          </a>
           </center>
         </div>
         <div class="col-lg-4"></div>

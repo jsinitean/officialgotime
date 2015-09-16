@@ -24,6 +24,15 @@ html {
             height: 51px;
         }
 
+        .navbar a {
+          color: #eee0b7;
+        }
+
+        .navbar a:hover {
+          color: #8B9476;
+        }
+
+
         .navbar-toggle {
           background-color: #8B9476;
         }
@@ -92,14 +101,13 @@ html {
 
 
 a {
-  color: #eee0b7;
-}
+    color: #8B9476;
+  }
+
 
 a:hover {
-  color: #8B9476;
-}
-
-
+    color: #8B9476;
+  }
 
 * {
   -moz-box-sizing: border-box;
