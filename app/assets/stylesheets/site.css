@@ -50,6 +50,8 @@ html {
 
         .row {
             width:100%;
+            margin-left: 0;
+            margin-left: 0;
         }
 
         #footer {
@@ -146,6 +148,12 @@ h1 {
 
 /* Linear Gradient */
 .section--head {
+  margin: 0;
+  background: #EEE;
+  padding: 40px 0;
+}
+
+.section {
   margin: 0;
   background: #EEE;
   padding: 20px 0;
