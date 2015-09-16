@@ -76,6 +76,13 @@ html {
   border: 0;
 }
 
+.collage-pic img {
+  width: auto;
+  max-width: auto;
+  height: auto;
+  border: 0;
+}
+
 .bridgeport-demo-pic img {
   width: auto;
   max-width: 200px;
