@@ -104,6 +104,11 @@ a {
     color: #8B9476;
   }
 
+.small-font a {
+    color: #8B9476;
+    font-size: 12px;
+  }  
+
 
 a:hover {
     color: #8B9476;
@@ -137,6 +142,11 @@ img {
 p {
   margin: 0 0 12px;
 }
+
+a > .small-font {
+  font-size: 12px;
+}
+
 ul {
   list-style: disc;
 }
