@@ -182,8 +182,10 @@ h1 {
 .section {
   margin: 0;
   background: #EEE;
-  padding: 20px 0;
+  padding: 1% 8% 8% 8%;
 }
 
-
+.section-heading {
+  padding-top: 4%;
+}
 
