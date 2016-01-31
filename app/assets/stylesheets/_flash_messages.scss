@@ -6,7 +6,7 @@
 
   &.plain {
 
-    background: #eee; // Gray
+    background: #eee0b7; // Gray
     color: $color_primary;
     padding: ms(-1);
     position: relative;
@@ -36,7 +36,7 @@
       color: #777;
     }
     a:hover {
-      text-decoration: bold;
+      text-decoration: none;
     }
 
   }

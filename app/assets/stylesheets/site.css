@@ -13,7 +13,7 @@ html {
 /* NavBar Headers */
 
         .navbar {
-            background-color: #B5B2AF;
+            background-color: #B5B2AF; 
             border-color: #8B9476;
         }
         .navbar-wrapper {
@@ -25,7 +25,7 @@ html {
         }
 
         .navbar a {
-          color: #eee0b7;
+          color: #fcf8e5;
         }
 
         .navbar a:hover {
@@ -35,6 +35,10 @@ html {
 
         .navbar-toggle {
           background-color: #8B9476;
+        }
+
+        .navbar-toggle .icon-bar {
+          background-color: #fcf8e5;
         }
 
         .navbar-wrapper > .container {
