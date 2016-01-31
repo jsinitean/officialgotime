@@ -112,6 +112,7 @@ a {
 
 a:hover {
     color: #8B9476;
+    text-decoration:none;
   }
 
 * {
