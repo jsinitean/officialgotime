@@ -6,6 +6,8 @@ This application support the [Getting Started with Ruby on Heroku](https://devce
 
 ## Running Locally
 
+## Update for deploy - Readme update commit
+
 Make sure you have Ruby installed.  Also, install the [Heroku Toolbelt](https://toolbelt.heroku.com/).
 
 ```sh
