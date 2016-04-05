@@ -194,3 +194,23 @@ h1 {
   padding-top: 4%;
 }
 
+
+.newflash {
+
+    background: #eee0b7; 
+    color: #8B9476;
+    padding: ms(-1);
+    position: relative;
+    z-index: 100;
+
+  }
+
+  .newnotice {
+
+    background: #d0d0d0;
+    box-shadow: 0px 2px 6px rgba(37, 37, 39, 0.27);
+    border-radius: 15px 50px;
+    border: 8px solid #8B9476;
+
+  }
+
